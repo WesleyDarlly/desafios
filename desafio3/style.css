@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    padding: 20px;
+}
+
+.cartoes{
+    width: 100%;
+    height: 300px;
+    border: 2px solid coral;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.cartao{
+    width: 18%;
+    height: 80%;
+    background-color: brown;
+    
+
+}
+
+.head{
+    width: 100%;
+    height: 10%;
+    background-color: coral;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 700px){
+    .cartoes{
+        flex-direction: column;
+        height: 600px;}
+      
+
+    .cartao{
+        width: 80%;
+        height: 18%;  
+    }
+    
+}
